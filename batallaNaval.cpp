@@ -416,34 +416,3 @@ void jugar(){
 }
 
 
-/*void dondeAtacar(string marcadorAtaque[11][11]){
-	int fila, columna;
-	bool verificacion; //, verificacionFila, verificacionColumna;
-	char letraColumna;
-	
-	do{
-	cout << "Ingrese la fila donde queres atacar" <<"\n";
-	cin >> fila;
-	//verificacionFila = verificarFila(fila);
-	
-	cout << "Ingrese la columna donde queres atacar" <<"\n";
-	cin>>letraColumna;
-    
-    columna = transformarColumnas(letraColumna);
-	//verificacionColumna = verificarColumna(columna);
-	
-	  //verificacionAtaque(marcadorAtaque, fila, columna);
-	}while(!verificacionFilaYColumna(fila, columna) && !verificacionAtaque(marcadorAtaque, fila, columna));
-	// verificacion = verificacionAtaque(marcadorAtaque, fila, columna);
-	
-	// for(int i = 0; i < 11; i++){
-	// 	for(int t = 0; t < 11; t++){
-	// 		// if(marcadorAtaque[fila][columna] != "0"){
-	// 		// 	marcadorAtaque[i][t] = "*";
-	// 		// }
-	// 		marcadorAtaque[fila][columna] = "*";
-	// 	}
-	// }
-	
-	marcadorAtaque[fila][columna] = "*";
-}*/
